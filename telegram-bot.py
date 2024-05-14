@@ -14,6 +14,9 @@ VALUES (3, 'Trimol', '7 months', '26000')''')
 
 conn.commit()
 
+def goodbye():
+    pass
+
 cursor.execute('''SELECT * FROM medicine''')
 about = input("Dori nomini kiriting: ")
 result = cursor.fetchall()
