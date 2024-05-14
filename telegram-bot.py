@@ -18,3 +18,6 @@ cursor.execute('''SELECT * FROM medicine''')
 about = input("Dori nomini kiriting: ")
 result = cursor.fetchall()
 print(result)
+
+def hello():
+    pass
